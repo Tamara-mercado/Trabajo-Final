@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Rick and Morty Characters</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ 
+  <div class="navbar">
+    <div class="logo">List of Rick and Morty Characters</div>
+    <div class="nav-links">
+      <a class="nav-link" href="#">Filter by Gender:
+       <select id="genderSelect">
+      <option value="">All</option>
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="genderless">Genderless</option>
+      <option value="unknown">Unknown</option>
+    </select>
+      </a>
+     </div>
+  
+  </div>      
+
+      <ul id="characterList"></ul>
+      
+<div class="botones">
+  <button id="firstButton">First Page</button>
+    <button id="prevButton">Previous Page</button>
+    <span>Page <span id="currentPage"></span> of <span id="totalPages"></span></span>
+    <button id="nextButton">Next Page</button>
+    <button id="lastButton">Last Page</button>
+</div>
+    
+
+    <footer class="footer">
+      <div class="copirigth">© 2023 Copyrigth TAMARA MERCADO </div>
+      <div class="ig">
+        <a href="https://www.instagram.com/tamimercadook/" target="_blank">
+          <img src="descarga.jpg" alt="Logotipo de Instagram" class="instagram">
+        </a>
+
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

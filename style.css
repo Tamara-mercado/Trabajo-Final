@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:  #ff7b89;
+    padding: 10px;
+    color: white;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-link {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  
+  
+  h1 {
+    color: #ff7b89;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+    filter: grayscale(100%);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #characterList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .button-container {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #ff7b89;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+.footer {
+  background-color: #ff7b89;
+  padding: 10px;
+  color: white;
+}
+
+.instagram {
+  width: 20px;
+  height: 20px;
+
+}
